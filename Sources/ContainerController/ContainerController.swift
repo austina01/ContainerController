@@ -81,7 +81,7 @@ open class ContainerController: NSObject {
         return controller?.navigationController?.navigationBar.isTranslucent ?? false
     }
     
-    private var isPortrait: Bool {
+    public var isPortrait: Bool {
         return ContainerDevice.isPortrait
     }
     
